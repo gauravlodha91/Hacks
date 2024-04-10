@@ -11,7 +11,7 @@ tenant_id = os.environ['AZURE_TENANT_ID']
 client_secret = os.environ['AZURE_CLIENT_SECRET']
 vault_url = os.environ["AZURE_VAULT_KEY"]
 
-secret_name = 'AZURE-LANGUAGE-ENDPOINT'
+secret_name = 'AZURE-LANGUAGE'
 credentials = ClientSecretCredential(
     client_id = client_id, 
     client_secret= client_secret,
