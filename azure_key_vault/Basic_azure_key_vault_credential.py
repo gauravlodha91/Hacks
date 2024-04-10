@@ -24,3 +24,5 @@ secret = secret_client.get_secret(secret_name)
 
 
 print("The secret value is :" + secret.value)
+
+
